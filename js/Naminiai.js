@@ -1,14 +1,14 @@
 import { Augintiniai } from "./Augintiniai.js";
 
 export class Naminiai extends Augintiniai {
-    constructor(name, age, furColor) {
+    constructor(name, age, furColor, behavior, owner) {
         super(name);
         this.age = age;
         this.furColor = furColor;
         this.legsCount = 4;
-        this.voice = 'loja kniaukia inkscia';
-        this.behavior = 'angry friendly cunning lazy';
-        this.owner = 'Kazimieras Zenute Kaziukas';
+        this.voice = 'loja murkia';
+        this.behavior = behavior;
+        this.owner = owner;
     }
 }        
 
