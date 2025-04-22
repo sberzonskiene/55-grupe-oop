@@ -7,6 +7,7 @@
     "animals": "node --watch ./animals.js",
     "auto": "node --watch ./auto.js",
     "gyvunai": "node --watch ./gyvunai.js",
+    "gyvuneliai": "node --watch ./gyvuneliai.js",
     "oop": "node --watch ./index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
