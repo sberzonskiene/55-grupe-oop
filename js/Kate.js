@@ -9,11 +9,3 @@ export class Kate extends Naminiai {
     }
 }
 
-/*export class Kate extends Naminiai {
-    constructor(name, furColor, legsCount) {
-        super(name, furColor, legsCount);
-        this.voice = 'kniaukia';
-        this.behavior = 'cunning';
-        this.owner = 'Zenutė';
-    }
-}*/

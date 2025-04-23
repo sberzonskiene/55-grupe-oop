@@ -8,10 +8,3 @@ export class Paukstis extends Laukiniai {
     }
 }
 
-/*export class Paukstis extends Laukiniai {
-    constructor(name, age, furColor, legsCount) {
-        super(name, age, furColor, legsCount);
-        this.voice = 'cirskia';
-        this.behavior = 'shy';
-    }
-}*/

@@ -7,11 +7,3 @@ export class Suo extends Naminiai {
     }
 }
 
-/*export class Suo extends Naminiai {
-    constructor(name, age, furColor, legsCount) {
-        super(name, age, furColor, legsCount);
-        this.voice = 'inkscia';
-        this.behavior = 'friendly';
-        this.owner = 'Kaziukas';
-    }
-}*/

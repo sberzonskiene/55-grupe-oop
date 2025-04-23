@@ -25,3 +25,5 @@ console.log(mauris.hi());
 console.log(zylute.hi());
 console.log(zvirblis.hi());
 
+console.log(vudis.feet());
+console.log(zvirblis.feet());
