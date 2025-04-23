@@ -20,6 +20,8 @@ class Dog extends animal {
         this.type = 'pet';
         this.legsCount = 4;
         this.voice = 'loja';
+        this.behavior = behavior;
+        this.owner = owner;
     }
 }
 
@@ -29,7 +31,9 @@ class Cat extends animal {
         super(name, age, furColor, behavior, owner);
         this.type = 'pet';
         this.legsCount = 4;
-        this.voice = 'kniaukia';
+        this.voice = 'murkia';
+        this.behavior = behavior;
+        this.owner = owner;
     }
 }
 
@@ -40,6 +44,8 @@ class Bird extends animal {
         this.type = 'wild';
         this.legsCount = 2;
         this.voice = 'čiulba';
+        this.behavior = behavior;
+        this.owner = owner;
     }
 }
 

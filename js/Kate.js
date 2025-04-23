@@ -1,10 +1,10 @@
 import { Naminiai } from "./Naminiai.js";
 
 export class Kate extends Naminiai {
-    constructor(name, furColor, legsCount) {
-        super(name, furColor, legsCount);
+    constructor(name, furColor, legsCount, behavior) {
+        super(name, furColor, legsCount, behavior);
         this.voice = 'murkia';
-        this.behavior = 'cunning';
+        this.behavior = behavior;
         this.owner = 'Zenutė';
     }
 }
